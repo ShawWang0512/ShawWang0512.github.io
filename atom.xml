@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ShawWang0512.github.io</id>
     <title>不来也不去</title>
-    <updated>2021-01-18T10:14:13.165Z</updated>
+    <updated>2021-01-18T10:15:08.430Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ShawWang0512.github.io"/>
     <link rel="self" href="https://ShawWang0512.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://ShawWang0512.github.io/images/avatar.png</logo>
     <icon>https://ShawWang0512.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 不来也不去</rights>
+    <entry>
+        <title type="html"><![CDATA[关于]]></title>
+        <id>https://ShawWang0512.github.io/post/guan-yu/</id>
+        <link href="https://ShawWang0512.github.io/post/guan-yu/">
+        </link>
+        <updated>2021-01-18T11:09:48.000Z</updated>
+        <content type="html"><![CDATA[<p>这里是一个静态博客，我在这里纪录我的生活、阅读和思考。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[标签化]]></title>
         <id>https://ShawWang0512.github.io/post/biao-qian-hua/</id>
