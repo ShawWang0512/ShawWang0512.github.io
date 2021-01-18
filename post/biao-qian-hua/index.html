@@ -16,7 +16,7 @@
 
   </head>
   <body>
-    <div class="main px-4 flex flex-col lg:flex-row">
+    <div id="app" class="main px-4 flex flex-col lg:flex-row">
       <div id="sidebar" class="sidebar-wrapper lg:static lg:w-1/4">
   <div class="lg:sticky top-0">
     <div class="sidebar-content">
@@ -30,29 +30,9 @@
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            步履不停
+            文章目录
           </p>
-          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
+          <div class="toc-container hidden lg:block">
             
           </div>
         </div>
@@ -97,35 +77,29 @@
 </div>
 <div class="mask" onclick="closeMenu()">
 </div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
-        <h2 class="latest-article text-lg text-gray-700 mb-8">
-          <i class="ri-article-line"></i>
-          最新文章
-        </h2>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
+        <h1 class="text-3xl font-bold lg:mt-16">标签化</h1>
+        <div class="text-sm text-gray-700 lg:my-8">
+          2021-01-18 / 1 min read
+        </div>
         
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://ShawWang0512.github.io/post/biao-qian-hua/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">标签化</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2021-01-18 / 1 min read</div>
-    </div>
-  </section>
+        <div class="post-content yue">
+          <p>我们大多数人都没有意识到语言这条基本规律——应用于任一给定个体的每个标签都只适用于他本性的一个方面。</p>
+<p>我们所使用的每个标签，尤其是对于那些主要的高强度标签，都会使我们的注意力无法聚焦于具体可感的现实。这个生活着，呼吸着的复杂个体——人性的最基本单位——从我们的视野里消失了。标签放大了特定属性在对象中所占据的比例，继而掩盖了个体的其他重要属性。</p>
 
-        <div class="read-more">
+        </div>
+
+        
+
+
+        <div class="flex justify-between py-8">
+          
+
           
         </div>
-        <div class="index-page">
-          <div class="pagination-container animated fadeIn">
-  
-  
-</div>
 
-        </div>
+        
+
       </div>
     </div>
 

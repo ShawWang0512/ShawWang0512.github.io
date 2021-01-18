@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ShawWang0512.github.io</id>
     <title>不来也不去</title>
-    <updated>2021-01-18T10:02:34.402Z</updated>
+    <updated>2021-01-18T10:05:10.274Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ShawWang0512.github.io"/>
     <link rel="self" href="https://ShawWang0512.github.io/atom.xml"/>
@@ -12,10 +12,10 @@
     <rights>All rights reserved 2021, 不来也不去</rights>
     <entry>
         <title type="html"><![CDATA[标签化]]></title>
-        <id>https://ShawWang0512.github.io/post/hello-gridea/</id>
-        <link href="https://ShawWang0512.github.io/post/hello-gridea/">
+        <id>https://ShawWang0512.github.io/post/biao-qian-hua/</id>
+        <link href="https://ShawWang0512.github.io/post/biao-qian-hua/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
+        <updated>2021-01-17T16:00:00.000Z</updated>
         <content type="html"><![CDATA[<p>我们大多数人都没有意识到语言这条基本规律——应用于任一给定个体的每个标签都只适用于他本性的一个方面。</p>
 <p>我们所使用的每个标签，尤其是对于那些主要的高强度标签，都会使我们的注意力无法聚焦于具体可感的现实。这个生活着，呼吸着的复杂个体——人性的最基本单位——从我们的视野里消失了。标签放大了特定属性在对象中所占据的比例，继而掩盖了个体的其他重要属性。</p>
 ]]></content>
