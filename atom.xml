@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ShawWang0512.github.io</id>
     <title>不来也不去</title>
-    <updated>2021-01-18T10:27:04.928Z</updated>
+    <updated>2021-01-25T05:08:16.508Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ShawWang0512.github.io"/>
     <link rel="self" href="https://ShawWang0512.github.io/atom.xml"/>
@@ -10,6 +10,15 @@
     <logo>https://ShawWang0512.github.io/images/avatar.png</logo>
     <icon>https://ShawWang0512.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, 不来也不去</rights>
+    <entry>
+        <title type="html"><![CDATA[偏见的广泛性]]></title>
+        <id>https://ShawWang0512.github.io/post/pian-jian-de-guang-fan-xing/</id>
+        <link href="https://ShawWang0512.github.io/post/pian-jian-de-guang-fan-xing/">
+        </link>
+        <updated>2021-01-25T05:05:07.000Z</updated>
+        <content type="html"><![CDATA[<p>很可能我们每个人都无法避免偏见，我们都倾向于做出偏向我们自己生活方式的预判。因为从一个更深的意义上来说，我们就是我们的价值观，我们不可避免地带着骄傲和爱意为自己的价值观做辩护，排斥每一个反对它们的群体。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>https://ShawWang0512.github.io/post/guan-yu/</id>
@@ -20,7 +29,7 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[标签化]]></title>
+        <title type="html"><![CDATA[复杂的个体不该被标签化]]></title>
         <id>https://ShawWang0512.github.io/post/biao-qian-hua/</id>
         <link href="https://ShawWang0512.github.io/post/biao-qian-hua/">
         </link>
