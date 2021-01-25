@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ShawWang0512.github.io</id>
     <title>不来也不去</title>
-    <updated>2021-01-25T05:11:11.670Z</updated>
+    <updated>2021-01-25T05:19:32.931Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ShawWang0512.github.io"/>
     <link rel="self" href="https://ShawWang0512.github.io/atom.xml"/>
@@ -25,7 +25,8 @@
         <link href="https://ShawWang0512.github.io/post/guan-yu/">
         </link>
         <updated>2021-01-18T11:09:48.000Z</updated>
-        <content type="html"><![CDATA[<p>欢迎访问我的静态博客，我在这里纪录我的生活、阅读和思考。</p>
+        <content type="html"><![CDATA[<p>欢迎访问我的静态博客，它是通过Gridea和Github被搭建的，创始人是https://github.com/EryouHao。Gridea的使用非常简单，我在这里纪录我的生活、阅读和思考。</p>
+<p>我96年出生，马上就要25岁。工作之余的时间会看看电影、读读书。对富余的精神生活有一点追求，实际上懂得很少，希望你能喜欢这里。</p>
 ]]></content>
     </entry>
     <entry>
