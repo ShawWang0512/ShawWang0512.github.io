@@ -16,7 +16,7 @@
 
   </head>
   <body>
-    <div class="main px-4 flex flex-col lg:flex-row">
+    <div id="app" class="main px-4 flex flex-col lg:flex-row">
       <div id="sidebar" class="sidebar-wrapper lg:static lg:w-1/4">
   <div class="lg:sticky top-0">
     <div class="sidebar-content">
@@ -30,33 +30,9 @@
       
         <div class="animated fadeInLeft" style="animation-delay: 0.4s">
           <p class="my-4 text-gray-600 font-light hidden lg:block">
-            步履不停
+            文章目录
           </p>
-          <div class="animated fadeInLeft social-container hidden lg:block" style="animation-delay: 0.6s">
-            
-              
-            
-              
-                <a href="https://twitter.com/ShawWang0512" target="_blank" class="mr-4 text-xl text-gray-400 font-light hover:text-gray-900">
-                  <i class="ri-twitter-line"></i>
-                </a>
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
-            
-              
+          <div class="toc-container hidden lg:block">
             
           </div>
         </div>
@@ -95,74 +71,60 @@
 </div>
 <div class="mask" onclick="closeMenu()">
 </div>
-      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4">
-        <h2 class="latest-article text-lg text-gray-700 mb-8">
-          <i class="ri-article-line"></i>
-          最新文章
-        </h2>
+      <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
+        <h1 class="text-3xl font-bold lg:mt-16">黑名单</h1>
+        <div class="text-sm text-gray-700 lg:my-8">
+          2021-02-05 / 1 min read
+        </div>
         
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${0 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://ShawWang0512.github.io/post/guan-yu/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">关于这里</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2021-01-18 / 1 min read</div>
-    </div>
-  </section>
+        <div class="post-content yue">
+          <p>美丽的事情不需要靠想象，<br>
+器官躁动、欲望撩拨。<br>
+激情、狂热、平淡、简单，<br>
+都是真实的。<br>
+依附网络生活的年代，<br>
+爱你也仅仅是爱你。</p>
+<p>在生命的一刹那中消散，<br>
+内脏颤抖、大脑痛哭。<br>
+思念、祈求、期待、绝望，<br>
+都是徒劳的。<br>
+依附网络生活的年代，<br>
+靠手指就可以杀死一个人。</p>
+<p>侵犯边界的人都该被唾弃，<br>
+暴殄天物，恶贯满盈。<br>
+痴迷、纠缠、喊叫、中伤，<br>
+都是病态的。<br>
+依附网络生活的年代，<br>
+拉黑是每个人的新新人权。</p>
+<p>学着去理解你所说的在乎，<br>
+感同身受，切肤之痛。<br>
+温柔、陪伴、争论、隔阂，<br>
+都是发生的。<br>
+依附网络生活的年代，<br>
+让我保留能保留的仅有。</p>
 
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${1 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://ShawWang0512.github.io/post/hei-ming-dan/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">黑名单</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2021-02-05 / 1 min read</div>
-    </div>
-  </section>
+        </div>
 
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${2 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://ShawWang0512.github.io/post/pian-jian-de-guang-fan-xing/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">偏见的广泛性</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
         
-      </div>
-      <div class="text-gray-400 text-sm font-light">2021-01-25 / 1 min read</div>
-    </div>
-  </section>
 
-  <section class="post-item md:flex pb-12 animated fadeIn" :style="{ 'animation-delay': `${3 * 0.2}s` }">
-    
-    <div class="content">
-      <a href="https://ShawWang0512.github.io/post/biao-qian-hua/">
-        <h2 class="post-title text-xl font-extrabold mt-5 md:mt-0">复杂的个体的标签化</h2>
-      </a>
-      <div class="post-abstract text-gray-700 font-light my-4">
-        
-      </div>
-      <div class="text-gray-400 text-sm font-light">2021-01-18 / 1 min read</div>
-    </div>
-  </section>
 
-        <div class="read-more">
+        <div class="flex justify-between py-8">
+          
+
+          
+            <div class="next-post">
+              <a href="https://ShawWang0512.github.io/post/pian-jian-de-guang-fan-xing/">
+                <h3 class="post-title">
+                  偏见的广泛性
+                  <i class="ri-arrow-right-line"></i>
+                </h3>
+              </a>
+            </div>
           
         </div>
-        <div class="index-page">
-          <div class="pagination-container animated fadeIn">
-  
-  
-</div>
 
-        </div>
+        
+
       </div>
     </div>
 
